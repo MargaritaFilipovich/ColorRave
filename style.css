@@ -1,10 +1,21 @@
 :root {
     --white-color: #FFFFFF;
     --grey-color: #C7C7C7;
+    --gray-color: #D8D8D8;
     --blue-background-color: #012D63;
     --purple-background-color: #8E32C6;
     --dark-blue-background-color: #021635;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  body{
+   background-color: var(--dark-blue-background-color);
+  }
 
 a {
     text-decoration: none;
@@ -14,14 +25,157 @@ ul{
     list-style: none;
 }
 
-header{
+.header{
     background-color: var(--blue-background-color);
 }
 
-.navigation-item{
-    color: var(--grey-color);
+.navigation-link{
+   color: var(--grey-color);
 }
 
-.navigation-list{
-    display: flex;
+
+.navigation-item{
+   color: var(--white-color);
 }
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+#header-flex {
+    display: flex;
+    
+ }
+
+ .colorawe{
+    background-image: url(image/Group\ 37\ \(1\)\ 1\ \(1\).png);
+    height: 858px;
+    background-size: cover;
+ }
+
+ .colorawe-article{
+    color: var(--white-color);
+ }
+
+ .button{
+    background-color: var(--purple-background-color);
+    color: var(--white-color);
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    border: none;
+ }
+
+ .info-list{
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .list-item{
+    color: var(--white-color);
+ }
+
+ .article-card{
+    border-color: var(--purple-background-color);
+    border-style: solid;
+    border-width: 5px;
+ }
+
+ 
+
+ .info{
+  padding: 105px 0;
+ }
+
+ .list-item{
+  font-size: 36px;
+ }
+
+ .reviewss{
+    display: flex;
+    justify-content: center;
+    color: var(--white-color);
+    font-size: 65px;
+ }
+
+ .card-list-item{
+   width: 255px;
+   height: 292px;
+   border-radius: 15px;
+ }
+ 
+ .reviews-list{
+   margin: 93px;
+ }
+
+ .card-list-item:nth-child(1){
+   background-image: linear-gradient(to right bottom, #00E5E6, #00ABF7, #9A76F9, #CC5EC2);
+ }
+
+ .card-list-item:nth-last-child(2){
+   background-image: linear-gradient(to right bottom, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
+ }
+
+ .card-list-item:nth-child(3){
+   background-image: linear-gradient(to right bottom, #FFE128, #FF9B5C, #FF8381, #FF5489);
+ }
+
+ .colorawe{
+    margin-bottom: 130px;
+ }
+
+ .article-card{
+    margin-bottom: 149px;
+ }
+
+ .reviews-list{
+    display: flex;
+    justify-content: space-between;
+    color: var(--white-color);
+ }
+
+ .colorrave{
+   font-size: 144px;
+   line-height: auto;
+   margin: 0;
+ }
+
+ .your-dream-nike{
+   font-size: 77px;
+   margin: 0;
+ }
+
+ .colorawe-text{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .colorawe-text{
+   margin-top: 12px;
+   margin-bottom: 41px;
+   width: 508px;
+ }
+
+ .info{
+   background-image: url(image/Group\ 8\ 1.png);
+   background-size: cover;
+ }
+
+ .reviews{
+   background-image: url(image/Group\ 6\ 1.png);
+   background-size: contain;
+ }
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+ 

@@ -40,6 +40,13 @@ ul{
   background-color: #012D63;
 }
 
+
+.logo1{
+  margin-top: 20px;
+  width: 100px;
+  height: 60px;
+}
+
 .navigation-link{
    color: var(--grey-color);
 }
@@ -76,7 +83,7 @@ ul{
 }
 
  .colorawe{
-    background-image: url(image/Group\ 37\ \(1\)\ 1\ \(1\).png);
+    background-image: url(image/cross_nike\ \(1\).png);
     height: 858px;
     background-size: cover;
  }
@@ -124,11 +131,6 @@ ul{
     border-width: 5px;
  }
 
-
- .list-item{
-  font-size: 36px;
- }
-
  .reviewss{
     display: flex;
     justify-content: center;
@@ -153,12 +155,14 @@ ul{
    .reviews-img{
     width: 31px;
     height: 31px;
+    margin-right: 10px;
    }
  
  .reviews-list{
    padding: 93px;
    margin-bottom: 0;
  }
+
 
  .card-list-item:nth-child(1){
    background-image: linear-gradient(to right bottom, #00E5E6, #00ABF7, #9A76F9, #CC5EC2);
@@ -177,9 +181,12 @@ ul{
     padding-bottom: 130px;
  }
 
- .article-card{
-    margin-bottom: 149px;
- }
+ .reviews {
+  background: url(img/flower.png), url(img/group6.png);
+  background-size: 250px, 100%;
+  background-repeat: no-repeat;
+  background-position: left bottom, center;
+}
 
  .reviews-list{
     display: flex;
@@ -211,19 +218,32 @@ ul{
  }
 
  .info{
-   background-image: url(image/Group\ 8\ 1.png);
+   background-image: url(image/group8\ \(1\).png);
    background-repeat: no-repeat;
    background-size: cover;
-   padding: 105px 0;
+   padding: 90px 0;
+   
+ }
+ 
+li.list-item:not(:last-child){
+  border-right: 1px solid white;
+}
+
+.list-item{
+  font-size: 36px;
+  padding: 0 55px;
  }
 
  .reviews{
-   background-image: url(image/Group\ 6\ 1.png);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   padding-top: 24px;
-   padding-bottom: 100px;
+ background-image: url(image/flower\ \(1\).png),url(image/group6\ \(1\).png);
+  background-size:250px,cover;
+  background-position:left bottom, center;
+  background-repeat:no-repeat ;
+}
+
+ .reviews{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
  }
 
  h1, h2 , h3 , h4 {
@@ -234,13 +254,10 @@ ul{
 }
 
  
-
  .reviews-div {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*margin-bottom: 29px;
-  margin-left: 13px;*/
 }
 
 .reviews-text p{
@@ -249,8 +266,6 @@ ul{
 
  .card-list-item p{
   font-size: 24px;
-  /*
-  padding-top: 49px;*/
  }
 
 
@@ -263,10 +278,10 @@ ul{
  }
 
  .order{
-  background-image: url(image/Group\ 2\ 1.png);
+  background-image: url(image/fon_2_tree\ \(1\).png);
   background-position: center;
   background-size: cover;
-  
+  padding: 30px 0;
  }
 
 .orderr{
@@ -298,23 +313,11 @@ ul{
 }
 
 .input-order:hover{
-  padding: 12px;
-  padding-bottom: 13px;
-  padding: 25px;
-  padding-left: 25px;
-  padding-right: 460px;
-  border-radius: 30px;
-  font-size: 28px;
+  width: 350px;
 }
 
 .input-order:focus{
-  padding: 12px;
-  padding-bottom: 13px;
-  padding: 25px;
-  padding-left: 25px;
-  padding-right: 460px;
-  border-radius: 30px;
-  font-size: 28px;
+  width: 350px;
 }
 
 .button-order{
@@ -341,11 +344,21 @@ ul{
 .footer-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
 }
 
 .footer-item {
   font-size: 24px;
+  width: 50%;
 }
+
+.footer-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
  
 

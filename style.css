@@ -13,6 +13,7 @@
     padding: 0 15px;
   }
 
+
   body{
    background-color: var(--dark-blue-background-color);
   }
@@ -70,6 +71,10 @@ ul{
     justify-content: space-between;
   }
 
+.navigation{
+  font-size: 24px
+}
+
  .colorawe{
     background-image: url(image/Group\ 37\ \(1\)\ 1\ \(1\).png);
     height: 858px;
@@ -119,15 +124,6 @@ ul{
     border-width: 5px;
  }
 
- .logo{
-  padding: 0;
- }
-
- .info{
-  padding: 0 105px;
- }
-
-
 
  .list-item{
   font-size: 36px;
@@ -141,13 +137,27 @@ ul{
  }
 
  .card-list-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
    width: 255px;
    height: 292px;
    border-radius: 15px;
- }
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+   }
+
+   .reviews-img{
+    width: 31px;
+    height: 31px;
+   }
  
  .reviews-list{
-   margin: 93px;
+   padding: 93px;
+   margin-bottom: 0;
  }
 
  .card-list-item:nth-child(1){
@@ -164,7 +174,7 @@ ul{
 
 
  .colorawe{
-    margin-bottom: 130px;
+    padding-bottom: 130px;
  }
 
  .article-card{
@@ -175,6 +185,7 @@ ul{
     display: flex;
     justify-content: space-between;
     color: var(--white-color);
+    padding: 114px;
  }
 
  .colorrave{
@@ -203,12 +214,45 @@ ul{
    background-image: url(image/Group\ 8\ 1.png);
    background-repeat: no-repeat;
    background-size: cover;
+   padding: 105px 0;
  }
 
  .reviews{
    background-image: url(image/Group\ 6\ 1.png);
    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding-top: 24px;
+   padding-bottom: 100px;
  }
+
+ h1, h2 , h3 , h4 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ 
+
+ .reviews-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*margin-bottom: 29px;
+  margin-left: 13px;*/
+}
+
+.reviews-text p{
+ margin: 5px 0;
+}
+
+ .card-list-item p{
+  font-size: 24px;
+  /*
+  padding-top: 49px;*/
+ }
+
 
  .card-list-item:not(:last-child){
   box-shadow: 0px 14px 1px -7px rgb(142, 50, 198, 90%), 0px 30px 0px -16px rgb(142, 50, 198, 60%);
